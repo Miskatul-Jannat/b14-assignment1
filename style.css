@@ -75,7 +75,7 @@ ul li a:hover {
 }
 
 .register-btn:hover {
-    background-color: #1D4ED8;
+    background-color: white;
 }
 
 .hero {
@@ -173,7 +173,128 @@ ul li a:hover {
 }
 
 .speaker-card-content p {
-    font-size: 16px;
+    font-size: 14px;
     color: #6b7280;
 
+}
+
+.pricing {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.pricing h2 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #111827;
+    font-weight: 800px;
+}
+
+.pricing>p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 60px;
+    color: gray;
+}
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.pricing-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: white;
+    text-align: left;
+    padding: 20px;
+}
+
+.pro {
+    background: #0f172a;
+    color: white;
+}
+
+
+
+
+.pro p {
+    color: #d1d5db;
+}
+
+
+.pricing-card h5 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.pro h5 {
+    color: #2563eb;
+}
+
+.pricing-card h1 {
+    font-size: 48px;
+    margin: 10px 0;
+    color: #111827;
+    font-weight: bold;
+}
+
+.pro h1 {
+    color: white;
+}
+
+.pricing-card p {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.pricing-card ul {
+    display: block;
+    list-style: disc;
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.pricing-card li {
+
+    font-size: 14px;
+    color: rgb(99, 96, 96);
+    margin-bottom: 10px;
+}
+
+.pricing-card li::marker {
+    color: #2563eb;
+}
+
+
+.price-btn1 {
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+    border-radius: 8px;
+}
+
+.price-btn1:hover {
+    background-color: #2563eb;
+    color: white;
+}
+
+.price-btn2 {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    color: white;
+    border: 1px solid #2563eb;
+    border-radius: 8px;
+}
+
+.price-btn2:hover {
+    background-color: white;
+    color: #2563eb;
 }
